@@ -1,0 +1,36 @@
+.main{
+    border: 2px solid;
+    width: 80% ;
+    height: 80%;
+    padding:20px ;
+    margin: 50px;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+/* #nav {
+    gap: 40px;
+    align-items: center;
+} */
+.Intro{
+    display: flex;
+    gap: 40px;
+    
+}
+#map{
+    height: 80%;
+    width: 150%;
+
+}
+
+.History{
+    display: flex;
+    gap: 40px;
+
+}
+
+#images{
+    height: 30%;
+    width: 50%;
+    
+}
