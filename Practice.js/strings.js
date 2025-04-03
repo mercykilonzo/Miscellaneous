@@ -31,4 +31,12 @@ let string = newArray.toString()
 console.log(string);
 console.log(typeof(string));
 
+let text1 = "Hello World"
+let text2 = text1.replace(/[aeiou]/gi,"")
+console.log({text2});
 
+let fruit = "banana"
+let charA = fruit.split("a").length - 1;
+console.log({charA});
+let a = fruit.split("a")
+console.log(a.length -1);

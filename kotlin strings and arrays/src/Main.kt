@@ -33,7 +33,7 @@ var a = "Hello"
 
     palindrome("Hannah")
 
-    println(palindrome2("Hannah"))
+    println(palindrome2("Madam"))
 
     println(calcVol(0.36, 0.42))
     shipping(2200.0,36.0)
@@ -73,10 +73,7 @@ fun palindrome(name:String){
 
 fun palindrome2(name1:String):Boolean{
     var newname = name1.lowercase()
-    println(newname)
-    var reversedname=newname.reversed()
-    println(reversedname)
-    return name1 ==reversedname
+   return if (newname==name1.reversed()) true else false
 }
 
 
