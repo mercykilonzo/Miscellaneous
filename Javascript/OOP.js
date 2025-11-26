@@ -117,9 +117,23 @@ class Candidate{
 
     }
     scheduleInterview(date){
-        this.interviews.push({})
+        this.interviews.push(date)
+        console.log(this.interviews);
+        
+    };
+index
+    async sendConfirmation() {
+        await new Promise(resolve => setTimeout(resolve, 1000))
+        console.log(`Interview confirmed with ${this.name}`);
+        
+
+        
     }
 }
+let date  = {date:"12/6/2025", status: "pending"}
+const candidate = new Candidate("Mercy","5",[{date:"12/6/2025", status: "pending"},{date:"12/6/2025", status: "pending"}])
+candidate.scheduleInterview(date)
+candidate.sendConfirmation()
 
 
 

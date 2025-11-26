@@ -51,13 +51,24 @@ const toTitleCase = (str2) =>{
 };
 console.log(toTitleCase("who moved my cheese"));
 
-let title = "who moved my cheese"
-let newtitle = title.split(" ")
-let booktitle = newtitle.charAt(0).toUpperCase() + newtitle.slice(1)
-console.log({booktitle});
+// let title = "who moved my cheese"
+// let newtitle = title.split(" ")
+// let booktitle = newtitle.charAt(0).toUpperCase() + newtitle.slice(1)
+// console.log({booktitle});
 
 
+function getVowelCount(sentence){
+  let count = 0
+  const vowels = ["a","e","i","o","u"]
+  const a = sentence.toLowerCase().split("")
+  a.forEach(element =>{
+    if (vowels.includes(element)){
+      count++;
 
+  }})
+  return count
+};
+console.log(getVowelCount("I love coding"))
 
 
 
