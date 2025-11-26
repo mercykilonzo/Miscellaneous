@@ -1,0 +1,9 @@
+
+#click-button{
+    padding: 12px 16px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

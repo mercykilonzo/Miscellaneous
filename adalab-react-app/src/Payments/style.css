@@ -1,0 +1,99 @@
+.container {
+  padding: 20px;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.filterContainer {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.selectInput {
+  padding: 6px 8px;
+  font-size: 14px;
+}
+
+.searchInput {
+  padding: 6px 8px;
+  font-size: 14px;
+  width: 200px;
+}
+
+.tableHeader {
+  background-color: #189651;
+  color: white;
+}
+
+.noPaymentsText {
+  font-style: italic;
+  margin-top: 20px;
+  color: #189651;
+}
+
+.errorText {
+  color: red;
+  font-weight: normal;
+  margin: 20px 0;
+}
+
+.paymentTable {
+  width: 1000%;
+  border-collapse: collapse;
+  text-align: right;
+}
+
+.paymentTable th,
+.paymentTable td {
+  padding: 80px;
+}
+
+.paymentTable tr {
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.paymentTable tr:hover {
+  background-color: #189651;
+  color: white;
+}
+
+.paginationContainer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.paginationButton {
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #226C3B;
+  border: none;
+  color: white;
+}
+
+.paginationButton[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+
+
+@media (max-width: 600px) {
+  .filterContainer {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+  .addButton {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
