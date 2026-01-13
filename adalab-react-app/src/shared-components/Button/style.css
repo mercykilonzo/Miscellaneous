@@ -1,0 +1,18 @@
+.shared-button{
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: none;
+}
+
+.primary{
+    color: white;
+    background-color: darkgreen;
+
+}
+
+.secondary{
+    color: darkgreen;
+    background-color: white;
+}

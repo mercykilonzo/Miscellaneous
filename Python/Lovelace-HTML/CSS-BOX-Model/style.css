@@ -1,0 +1,10 @@
+.container{
+    border: solid 1px;
+    padding: 20px 50px 100px 0px; 
+    margin: 20px 100px 0px;
+    width: 50%;
+    margin: 0 auto;
+}
+.inner_container{
+    border: dotted red 2px;
+}
